@@ -1,4 +1,4 @@
-FROM python:3.10.8
+FROM python:3.9
 WORKDIR /bot
 ENV PYTHONUNBUFFERED=1
 COPY requirements.txt .
